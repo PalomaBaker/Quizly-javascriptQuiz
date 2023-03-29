@@ -80,13 +80,20 @@
  
    startTimer();
    displayQuestion();
- });
- 
- // Event listener for the save button
- saveButton.addEventListener("click", () => {
-   const initials = initialsInput.value;
-   const score = timeRemaining;
- 
-   // Save the initials and score to a database or localStorage
- });
+
+// Event listener for the save button
+// Save the initials and score to a database or localStorage
+   saveButton.addEventListener("click", function() {
+      const initials = initialsInput.value;
+      const score = timeRemaining;
+      score = localStorage.getItem("score");
+      const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+    
+      highScores.push({ initials: initials, score: score });
+      localStorage.setItem("highScores", JSON.stringify(highScores));
+    
+      window.location.href = "highscores.html";
+    });
+});
+
  
