@@ -1,3 +1,4 @@
+
 // Retrieve the array from localStorage
 const valuesArray = JSON.parse(localStorage.getItem('highScores')) || [];
 
@@ -13,6 +14,4 @@ for (let i = 0; i < valuesArray.length; i++) {
   newValueElement.textContent = `${value.initials} - ${value.score}`;
   valuesContainer.appendChild(newValueElement);
 }
-
-
 

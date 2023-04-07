@@ -1,0 +1,100 @@
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 3em;
+  }
+  
+  /* Style the quiz container */
+  #quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the question */
+  #question {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+
+  
+  /* Style the choices container */
+  #choices-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the choice buttons */
+  button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  /* Style the timer */
+  #timer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+  
+  /* Style the game over container */
+  #game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the high score input field */
+  #initials-input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  /* Style the save button */
+  #save-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f5f5f5;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #save-button:hover {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  

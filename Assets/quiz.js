@@ -1,4 +1,4 @@
-  // Set the quiz duration and time penalty for wrong answers
+ // Set the quiz duration and time penalty for wrong answers
  const quizDuration = 60; // seconds
  const timePenalty = 10; // seconds
  
@@ -95,5 +95,3 @@
       window.location.href = "highscores.html";
     });
 });
-
- 
